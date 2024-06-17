@@ -8,8 +8,8 @@ let timerX; // Variável para a posição X do timer
 
 function preload() {
   // Carregue as imagens antes de iniciar o programa
-  dogImage = loadImage('./src/Cachorro.png'); // Substitua 'cachorro.png' pelo caminho da sua imagem de rosto de cachorro
-  boneImage = loadImage('./src/Osso.png'); // Substitua 'osso.png' pelo caminho da sua imagem de osso
+  dogImage = loadImage('./src/cachorro.png'); // Substitua 'cachorro.png' pelo caminho da sua imagem de rosto de cachorro
+  boneImage = loadImage('./src/osso.png'); // Substitua 'osso.png' pelo caminho da sua imagem de osso
 }
 
 function alertaobjetivo() {
