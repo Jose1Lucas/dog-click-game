@@ -8,12 +8,12 @@ let timerX; // Variável para a posição X do timer
 
 function preload() {
   // Carregue as imagens antes de iniciar o programa
-  dogImage = loadImage('./src/cachorro.png'); // Substitua 'cachorro.png' pelo caminho da sua imagem de rosto de cachorro
-  boneImage = loadImage('./src/osso.png'); // Substitua 'osso.png' pelo caminho da sua imagem de osso
+  dogImage = loadImage('./src/dog.png'); // Substitua 'cachorro.png' pelo caminho da sua imagem de rosto de cachorro
+  boneImage = loadImage('./src/bone.png'); // Substitua 'osso.png' pelo caminho da sua imagem de osso
 }
 
 function alertaobjetivo() {
-  alert("Colete os ossos antes que o tempo acabe!");
+  alert("Collect the bones before time runs out!");
 }
 
 function setup() {
@@ -75,11 +75,11 @@ function draw() {
 }
 
 function mostrarAlerta(bonesColetados) {
-  alert(`Parabéns! Você coletou ${bonesColetados} ossos!`);
+  alert(`Congratulations! You have collected ${bonesColetados} bones!`);
 }
 
 function alertatentardenovo() {
-  alert("Clique em ok para jogar novamente!");
+  alert("Click ok to play again!");
   }  
 
 function reiniciarJogo() {
