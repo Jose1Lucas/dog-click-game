@@ -65,13 +65,13 @@ function draw() {
   fill(0); // Cor do texto (preto)
   textSize(24); // Tamanho da fonte
   textAlign(CENTER, TOP); // Alinhe o texto ao centro e no topo
-  text(`OSSOS COLETADOS, ${bonesCollected}`, width / 2, 10); // Exiba o contador
+  text(`BONES PICKED UP, ${bonesCollected}`, width / 2, 10); // Exiba o contador
 
   // Exiba o timer no fundo da tela
   fill(0); // Cor do texto (preto)
   textSize(24); // Tamanho da fonte
   textAlign(CENTER, BOTTOM); // Alinhe o texto ao centro e na base
-  text(`TEMPO: ${timer}`, width / 2, height - 10); // Exiba o timer
+  text(`TIME: ${timer}`, width / 2, height - 10); // Exiba o timer
 }
 
 function mostrarAlerta(bonesColetados) {
